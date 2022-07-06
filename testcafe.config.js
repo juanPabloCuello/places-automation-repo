@@ -7,8 +7,8 @@ async function setupTestCafe(){
         const failedCount = await runner
             .src('*.spec.ts')
             .browsers(['chrome'])
+            .reporter("html", "test_folder/file.html")
             .run();
-            console.log('failed test: $(failedCount)');
             testcafe.close();
         }catch(error){
             console.error(error);

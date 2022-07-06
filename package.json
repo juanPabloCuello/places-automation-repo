@@ -1,8 +1,11 @@
 {
   "scripts": {
     "test": "node ./testcafe.config.js"
+    
   },
   "dependencies": {
-    "testcafe": "^1.8.4"
+    "testcafe": "^1.9.1",
+    "testcafe-reporter-html": "^1.4.6",
+    "testcafe-reporter-tesults": "^1.1.0"
   }
 }
