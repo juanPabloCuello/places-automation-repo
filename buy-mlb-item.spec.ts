@@ -57,7 +57,7 @@ test('buy the last item on my purchases with the last direction setted', async t
 
 const headerText = await Selector('#app-root-wrapper > div > div > div.detail-container > div.bf-ui-ticket > h4').textContent;
 console.log("- Mercado Libre Brasil - `https://www.mercadolivre.com.br/`");
-console.log("NRO DE ORDEN:");
+console.log("MLB - NRO DE ORDEN:");
 console.log(headerText);
 
 

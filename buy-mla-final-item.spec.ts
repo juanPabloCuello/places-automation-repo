@@ -6,7 +6,7 @@ fixture `buy funko item on mlm and log the order id`// declare the fixture
 
 
 //This test will buy the last iteam on my purchases with the last direction setted
-/*test('buy the last iteam on my purchases with the last direction setted', async t => {
+test('buy the last iteam on my purchases with the last direction setted', async t => {
 
     await t
         .click('#nav-header-menu > a:nth-child(3)')
@@ -56,8 +56,8 @@ await t
 
 
 const headerText = await Selector('#app-root-wrapper > div > div > div.detail-container > div.bf-ui-ticket > h4').textContent;
-console.log("NRO DE ORDEN:");
+console.log("MLA - NRO DE ORDEN:");
 console.log(headerText);
 
 
-});*/
+});

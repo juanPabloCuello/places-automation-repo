@@ -50,7 +50,7 @@ await t
     .click('#root-app > div > div.main-container > div.container > div.bf-ui-card.bf-ui-card--flat > div.bf-ui-button-container.bf-ui-button-container--vertical.bf-ui-button-container--transparent > a > span > span')
 
 const headerText = await Selector('#app-root-wrapper > div > div > div.detail-container > div.bf-ui-ticket > h4').textContent;
-console.log("NRO DE ORDEN:");
+console.log("MLM - NRO DE ORDEN:");
 console.log(headerText);
 
 
