@@ -26,3 +26,4 @@ on testcafe.config.js
 to run in headless mode:
             .browsers(['chrome:headless'])
 
+
